@@ -1,6 +1,6 @@
 # Visual Studio Code (VSC) Recommended Guidelines
 
-This document will show a recommended guidelines for proper web developing in VSC.
+This document will show a recommended guidelines & extensions for proper web developing in VSC.
 
 ##  Topics:
 
@@ -11,12 +11,11 @@ This document will show a recommended guidelines for proper web developing in VS
 3. [Code Linters](#code-linters)
   3.1. [ESLint](#eslint)
   3.2. [TypeScript ESLint](#https://github.com/typescript-eslint/typescript-eslint)
-  3.3. Prettier
-  3.4. ESLint + Prettier Integration
+  3.3. [Prettier](#prettier)
+  3.4. [ESLint + Prettier Integration](https://dev.to/chgldev/getting-prettier-eslint-and-vscode-to-work-together-3678)
 
-4. Code Guidelines
-  4.1. Code Quality
-  4.2. Airbnb Guidelines
+4. [Code Guidelines](#code-guidelines)
+  4.1. [Airbnb Style Guide](#airbnb-style-guide)
 
 5. Recommended Extensions Reference
 
@@ -47,8 +46,24 @@ This document will show a recommended guidelines for proper web developing in VS
   The linter configuration should works the same for each developer that works the same project code.
   The code fixing can run manual by command or run automatically on save or on commit.
 
-### 3.1. ESLint:
+### 3.1. ESLint
 
   ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. In many ways, it is similar to JSLint and JSHint with a few exceptions. ([getting started with ESLint](https://eslint.org/docs/user-guide/getting-started))
 
+### 3.3. Prettier
+
+  A opinionated code formatter that support many languages and integrates with most editors.
+  We will use it as a VSC extension and node dev dependency. ([prettier docs](https://prettier.io/))
+
 ---
+
+## 4. Code Guidelines:
+
+  Coding guidelines help in detecting errors in the early phases, so it helps to reduce the extra cost incurred by the software project. 
+  If coding guidelines are maintained properly, then the software code increases readability and understandability thus it reduces the complexity of the code.
+
+### 4.1. Airbnb Style Guide
+
+  There are some common JS style guides out there, we in Korentec chose to adopt the Airbnd style guide as the main JS code guidelines.
+  You can extends its rules in the ESLint cofig file, course the rules can be overridden of course according to the need for the specific project.
+  In the bottom linem, the project manager is the one to decide the rules for the relevant project. ([airbnb JS style guide](https://airbnb.io/javascript/))
