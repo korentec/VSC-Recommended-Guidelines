@@ -2,7 +2,7 @@
 
 This document will show a recommended guidelines & extensions for proper web developing in VSC.
 
-##  Topics:
+##  Topics
 
 1. [Introduction](#introduction)
 
@@ -17,11 +17,13 @@ This document will show a recommended guidelines & extensions for proper web dev
 4. [Code Guidelines](#code-guidelines)
   4.1. [Airbnb Style Guide](#airbnb-style-guide)
 
-5. Recommended Extensions Reference
+5. [Recommended Extensions Reference](#recommended-extensions-reference)
+
+6. [Summary](#summary)
 
 ---
 
-## 1. Introduction:
+## 1. Introduction
 
   As a web developer in Korentec and as a developer in general, we want to write quality code.
   Our code should be written according to the last languages ​standards, that updating frequently.
@@ -30,7 +32,7 @@ This document will show a recommended guidelines & extensions for proper web dev
 
 ---
 
-## 2. Prerequisites:
+## 2. Prerequisites
 
   * VSC IDE installed in your computer ([download](https://code.visualstudio.com/))
 
@@ -38,7 +40,7 @@ This document will show a recommended guidelines & extensions for proper web dev
 
 ---
 
-## 3. Code Linters:
+## 3. Code Linters
 
   We useing code linters in our code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
   With the accompanying libraries we can format our code according the linter guidelines.
@@ -57,7 +59,7 @@ This document will show a recommended guidelines & extensions for proper web dev
 
 ---
 
-## 4. Code Guidelines:
+## 4. Code Guidelines
 
   Coding guidelines help in detecting errors in the early phases, so it helps to reduce the extra cost incurred by the software project. 
   If coding guidelines are maintained properly, then the software code increases readability and understandability thus it reduces the complexity of the code.
@@ -67,3 +69,25 @@ This document will show a recommended guidelines & extensions for proper web dev
   There are some common JS style guides out there, we in Korentec chose to adopt the Airbnd style guide as the main JS code guidelines.
   You can extends its rules in the ESLint cofig file, course the rules can be overridden of course according to the need for the specific project.
   In the bottom linem, the project manager is the one to decide the rules for the relevant project. ([airbnb JS style guide](https://airbnb.io/javascript/))
+
+---
+
+# 5. Recommended Extensions Reference
+
+  The table bellow list recommended VSC extensions to keep the code guidelines and help you developing in general. 
+
+  | Name | Desc | Link |
+  | ------ | ------ | ------ |
+  | ESLint | Integrates ESLint JavaScript into VS Code | [link](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |
+  | Prettier | Prettier is an opinionated code formatter. It enforces a consistent style. | [link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
+  | Code Spell Checker | A basic spell checker that works well with camelCase code | [link](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) |
+  | GitLens | Helps to mange the git repo | [link](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
+  | Live Server | Launch a development local Server with live reload feature for static & dynamic pages | [link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver) |
+
+  \* There are many more good extensions, welcome to add here.
+
+---
+
+# 6. Summary
+
+  
